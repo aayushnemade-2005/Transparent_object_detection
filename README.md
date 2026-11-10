@@ -16,7 +16,7 @@ python -m pip install torch torchvision --index-url https://download.pytorch.org
 python -m pip install -e .
 ```
 
-Use Python 3.10-3.12 (64-bit). Check the GPU with `python -c "import torch; print(torch.cuda.is_available())"`, which should print `True`.
+Use Python 3.14 (64-bit). Check the GPU with `python -c "import torch; print(torch.cuda.is_available())"`, which should print `True`.
 
 ## Dataset
 
@@ -52,10 +52,6 @@ python inference.py --source 1                   # live webcam (q = quit, f = fu
 
 Useful options: `--weights best.pt`, `--conf 0.6` (confidence threshold), `--half` (faster on GPU), `--flip`, `--winsize 1280x720`, `--save` (record live output).
 Classes to ignore are listed in `EXCLUDE_CLASSES` at the top of `inference.py`.
-
-## Model weights
-
-Download `best.pt` from the [Releases](../../releases) page.
 
 ## License and credits
 
