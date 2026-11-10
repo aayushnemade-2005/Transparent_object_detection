@@ -1,0 +1,18 @@
+path: D:\CV\Tranparent_Obj_Det\Transperent_object_det_dataset   # absolute path
+train: images/train
+val: images/val
+
+names:
+  0: bottle
+  1: bowl
+  2: box
+  3: cup
+  4: door
+  5: eyeglass
+  6: jar_kettle
+  7: shelf
+  8: wall
+  9: window
+  
+
+
