@@ -1,0 +1,22 @@
+# CUDA 12.8 build of PyTorch (wheels are hosted on the PyTorch index, not PyPI)
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+
+# Core
+numpy==2.5.4
+opencv-python==5.0.0.93
+pillow==13.0.0
+PyYAML==6.0.3
+requests==2.34.2
+tqdm==4.70.1
+psutil==7.2.2
+pandas==3.1.1
+matplotlib==3.11.2
+
+# Ultralytics dependencies not present in the original list (versions left open)
+scipy
+seaborn
+py-cpuinfo
+ultralytics-thop
